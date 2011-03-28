@@ -12,7 +12,7 @@ Check for uniquely created content in a Redis set.
     set = UniqueContentSet.new user.id, :messages
 
     if set.add(@message.body, @message.created_at)
-      # this message body has been posted before, do something!
+      # this message body is unique!
     end
 
     if set.exist?(@message.body)
