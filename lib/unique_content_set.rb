@@ -3,7 +3,7 @@ require 'digest/sha1'
 # Stores a set of unique content.  This is used to check if new content being
 # added has been seen already.
 class UniqueContentSet
-  VERSION = '0.0.1'
+  VERSION = '0.1.0'
 
   class << self
     # Sets are stored in Redis.
