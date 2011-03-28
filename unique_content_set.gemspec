@@ -12,10 +12,10 @@ Gem::Specification.new do |s|
   ## Leave these as is they will be modified for you by the rake gemspec task.
   ## If your rubyforge_project name is different, then edit it and comment out
   ## the sub! line in the Rakefile
-  s.name              = 'email_reply_parser'
-  s.version           = '0.2.0'
-  s.date              = '2011-03-17'
-  s.rubyforge_project = 'email_reply_parser'
+  s.name              = 'unique_content_set'
+  s.version           = '0.0.1'
+  s.date              = '2011-03-28'
+  s.rubyforge_project = 'unique_content_set'
 
   ## Make sure your summary is short. The description may be as long
   ## as you like.
@@ -62,12 +62,9 @@ Gem::Specification.new do |s|
     LICENSE
     README.md
     Rakefile
-    email_reply_parser.gemspec
-    lib/email_reply_parser.rb
-    test/email_reply_parser_test.rb
-    test/emails/email_1_1.txt
-    test/emails/email_1_2.txt
-    test/emails/email_1_3.txt
+    lib/unique_content_set.rb
+    test/unique_content_set_test.rb
+    unique_content_set.gemspec
   ]
   # = MANIFEST =
 
